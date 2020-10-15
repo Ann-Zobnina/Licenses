@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Licenses</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <div class="popup" id="popup">
+        <div class="popup__body">
+            <div class="popup__content">
+                <a href="" class="popup__close"></a>
+
+                <div class="list">
+                    <div class="list__item">
+                        <div class="item__block_of_license">
+                            <input class="item__radio" type="radio" name="license" id="license_1" value="1">
+                            <label class="item__license_name" for="license_1">LICENSE PLAN#1</label>
+                        </div>
+                        <span class="item__price">
+                            $13 per license
+                        </span>
+                    </div>
+
+                    <div class="list__item">
+                        <div class="item__block_of_license">
+                            <input class="item__radio" type="radio" name="license" id="license_2" value="2">
+                            <label class="item__license_name" for="license_2">LICENSE PLAN#2</label>
+                        </div>
+                        <span class="item__price">
+                            $22 per license
+                        </span>
+                    </div>
+
+                    <div class="list__item">
+                        <div class="item__block_of_license">
+                            <input class="item__radio" type="radio" name="license" id="license_3" value="3">
+                            <label class="item__license_name" for="license_3">LICENSE PLAN#3</label>
+                        </div>
+                        <span class="item__price">
+                            $34 per license
+                        </span>
+                    </div>
+                </div>
+
+                <div class="number_of_licenses">
+                    <span class="number_of_licenses__text">Number of licenses:</span>
+                    <select class="number_of_licenses__select" name="number" id="">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+                </div>
+
+                <div class="total">
+                    <div class="total__price">
+                        <span class="total__text">Total:</span>
+                        <label for="" class="total__number">
+                            $<span class="total__result">340</span><span class="total__us"><sup>us</sup></span>
+                        </label>
+                    </div>
+
+                    <a href="#" class="total__btn">Buy now</a>
+
+                    <div class="total__selected_plan">
+                        <span class="total__selected_plan__text">Selected plan:</span>
+                        <label class="total__selected_plan__number" for="">#3</label>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
